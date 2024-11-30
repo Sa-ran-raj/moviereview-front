@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // YouTube API Configuration
-const YOUTUBE_API_KEY = "AIzaSyCEvxsyhtiozAdkZac4T_6kHbg21lOKgXU"; // Replace with your actual API key
+const YOUTUBE_API_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY; // Replace with your actual API key
 
 // Load YouTube API
 function loadYouTubeAPI() {
