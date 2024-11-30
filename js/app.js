@@ -1,4 +1,4 @@
-const apiBaseUrl = 'http://localhost:8080/api/movies';
+const apiBaseUrl = '';
 let allMovies = []; // Store all movies for filtering
 let debounceTimer; // Timer for debouncing
 
