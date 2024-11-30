@@ -1,4 +1,4 @@
-const apiBaseUrl = '';
+const apiBaseUrl = 'https://java-mini-project-dep-7.onrender.com/api/movies';
 let allMovies = []; // Store all movies for filtering
 let debounceTimer; // Timer for debouncing
 
