@@ -1,4 +1,4 @@
-const apiBaseUrl = 'https://java-mini-project-dep-production.up.railway.app/api/movies';
+const apiBaseUrl = 'https://java-mini-project-dep-8.onrender.com/api/movies';
 let allMovies = []; // Store all movies for filtering
 let debounceTimer; // Timer for debouncing
 
